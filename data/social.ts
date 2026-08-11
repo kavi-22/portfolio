@@ -12,21 +12,21 @@ export const SOCIAL_LINKS: SocialItem[] = [
     name: "GitHub",
     url: "https://github.com/kavi-22",
     icon: "github",
-    ariaLabel: "Visit Kavi's GitHub profile",
+    ariaLabel: "Visit Kaviyarasu's GitHub profile",
   },
   {
     id: "linkedin",
     name: "LinkedIn",
-    url: "https://linkedin.com/in/kavi", // Update with your LinkedIn profile
+    url: "https://linkedin.com/in/kaviyarasu-c",
     icon: "linkedin",
-    ariaLabel: "Connect with Kavi on LinkedIn",
+    ariaLabel: "Connect with Kaviyarasu on LinkedIn",
   },
   {
     id: "email",
     name: "Email",
-    url: "mailto:kavi@example.com", // Update with your personal email
+    url: "mailto:kavi22052004@gmail.com",
     icon: "email",
-    ariaLabel: "Send an email to Kavi",
+    ariaLabel: "Send an email to Kaviyarasu",
   },
 ];
 

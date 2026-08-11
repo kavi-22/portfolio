@@ -11,10 +11,10 @@ export default function Achievements() {
         <div className="max-w-2xl mb-12">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-950/40 border border-amber-500/30 text-xs font-mono text-amber-300 mb-3">
             <Award size={13} />
-            <span>MILESTONES &amp; CREDENTIALS</span>
+            <span>HONORS &amp; RECOGNITION</span>
           </div>
           <h2 className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">
-            Certifications &amp; Milestones
+            Awards &amp; Milestones
           </h2>
         </div>
 
