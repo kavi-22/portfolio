@@ -69,6 +69,10 @@ export interface Project {
   image?: string;
   liveUrl?: string;
   githubUrl?: string;
+  v1GithubUrl?: string;
+  v1LiveUrl?: string;
+  v1Title?: string;
+  v1Tech?: string[];
   featured: boolean;
   completionDate?: string;
   metrics?: { label: string; value: string }[];

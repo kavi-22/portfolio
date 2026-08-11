@@ -86,6 +86,19 @@ export default function ProjectCard({ project, onOpenModal }: ProjectCardProps) 
           </button>
 
           <div className="flex items-center gap-2">
+            {project.v1GithubUrl && (
+              <a
+                href={project.v1GithubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-2 py-1 rounded-lg bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/30 text-amber-300 hover:text-amber-200 text-[11px] font-mono transition-all focus:outline-none focus-visible:ring-1 focus-visible:ring-amber-400"
+                title={`Original v1 Repo: ${project.v1Title || "Legacy Version"}`}
+                aria-label={`Original v1 repo for ${project.title}`}
+              >
+                v1
+              </a>
+            )}
+
             {project.githubUrl && project.githubUrl !== "#" && (
               <a
                 href={project.githubUrl}

@@ -5,7 +5,7 @@ export const PROFILE: Profile = {
   role: "Full Stack Developer",
   secondaryRole: "Frontend Specialist & React / Next.js Enthusiast",
   location: "Tamil Nadu, India · Open to Remote Worldwide",
-  email: "kavi@example.com", // Update with your actual email
+  email: "kavi22052004@gmail.com",
   availability: "Available for opportunities",
   bio: "B.Sc. Computer Science graduate from Annamalai University specialized in engineering clean, responsive, and performance-oriented web applications with Next.js, React, and TypeScript.",
   summary: "I build robust web applications with modern frontend architectures, clean state management, and reliable API integrations. With a First Class B.Sc. Computer Science degree from Annamalai University and hands-on experience building production-ready apps like Weather Dashboards and Academic Grade Calculators, I focus on intuitive UX, maintainable codebases, and rock-solid responsiveness.",
@@ -32,7 +32,8 @@ export const PROFILE: Profile = {
   social: {
     github: "https://github.com/kavi-22",
     linkedin: "https://linkedin.com/in/kavi",
-    email: "mailto:kavi@example.com",
+    email: "mailto:kavi22052004@gmail.com",
+    website: "https://portfolio-hazel-gamma-94.vercel.app/",
   },
   resumeUrl: "#", // Add your Google Drive / PDF resume URL here (or null to hide the button)
   stats: {

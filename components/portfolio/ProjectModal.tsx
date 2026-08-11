@@ -128,7 +128,18 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
                 className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-200 hover:text-white font-medium text-xs transition-all"
               >
                 <Github size={14} />
-                <span>View Source Code</span>
+                <span>View Pro Code</span>
+              </a>
+            )}
+            {project.v1GithubUrl && (
+              <a
+                href={project.v1GithubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-slate-900/90 hover:bg-slate-800 border border-amber-500/30 text-amber-300 hover:text-amber-200 font-medium text-xs transition-all"
+              >
+                <Github size={14} className="text-amber-400" />
+                <span>{project.v1Title || "View v1 Source"}</span>
               </a>
             )}
           </div>
