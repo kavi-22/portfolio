@@ -32,7 +32,7 @@ export const PROFILE: Profile = {
   ],
   social: {
     github: "https://github.com/kavi-22",
-    linkedin: "https://linkedin.com/in/kaviyarasu-c",
+    linkedin: "https://www.linkedin.com/in/kaviyarasu-c-bsc/",
     email: "mailto:kavi22052004@gmail.com",
     website: "https://portfolio-hazel-gamma-94.vercel.app/",
   },
