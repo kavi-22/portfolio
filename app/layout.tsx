@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://kavi-22.github.io/Portfolio_website-/",
+    url: "https://portfolio-hazel-gamma-94.vercel.app/",
     title: `${PROFILE.name} | ${PROFILE.role}`,
     description: PROFILE.bio,
     siteName: `${PROFILE.name} Developer Portfolio`,
