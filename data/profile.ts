@@ -32,11 +32,14 @@ export const PROFILE: Profile = {
   ],
   social: {
     github: "https://github.com/kavi-22",
-    linkedin: "https://linkedin.com/in/kaviyarasu-c",
+    linkedin: "https://www.linkedin.com/in/kaviyarasu-c-bsc/",
     email: "mailto:kavi22052004@gmail.com",
     website: "https://portfolio-hazel-gamma-94.vercel.app/",
   },
-  resumeUrl: "#", // Add your Google Drive / PDF resume URL here (or null to hide the button)
+  resumeUrl:
+    process.env.NEXT_PUBLIC_RESUME_LINK ||
+    process.env.RESUME_LINK ||
+    "https://drive.google.com/file/d/11B0OPc5IV-ZqxioR1nTUr0jOaPT7RaFZ/view?usp=drivesdk",
   stats: {
     projectsBuilt: "3+ Flagship Apps",
     yearsExperience: "1 Year Pro Exp",

@@ -17,7 +17,7 @@ export const SOCIAL_LINKS: SocialItem[] = [
   {
     id: "linkedin",
     name: "LinkedIn",
-    url: "https://linkedin.com/in/kaviyarasu-c",
+    url: "https://www.linkedin.com/in/kaviyarasu-c-bsc/",
     icon: "linkedin",
     ariaLabel: "Connect with Kaviyarasu on LinkedIn",
   },
